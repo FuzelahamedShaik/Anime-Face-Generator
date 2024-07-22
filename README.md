@@ -1,0 +1,3 @@
+![image](https://github.com/user-attachments/assets/05acdb53-1ed0-4849-9441-335ca7d95f92)
+
+The samples created got better eventually, but couldn’t notice any improvements in the latter epochs. A deeper architecture would have benefited from greater number of epochs as it would be able to optimize more parameters. For further modeling one can try using different optimizers to generator and discriminator. To improve the performance of this model one can try to increase the dropout ratios in the discriminator architecture. This can solve the vanishing gradient problem. More hyperparameter techniques such as smaller learning rates, adding noise to the discriminator layers. 
